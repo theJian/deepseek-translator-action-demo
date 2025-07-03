@@ -21,7 +21,7 @@ jobs:
       pull-requests: write
     steps:
       - uses: actions/checkout@v4
-      - uses: theJian/deepseek-translator@main
+      - uses: theJian/deepseek-translator@v1
         with:
           deepseek-api-key: ${{ secrets.DEEPSEEK_API_KEY }}
       - uses: peter-evans/create-pull-request@v7

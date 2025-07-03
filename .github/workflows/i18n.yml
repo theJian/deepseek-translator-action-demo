@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'locales/**'
+      - i18n.yml
 
 # Cancel any in-progress CI runs for a PR if it is updated
 concurrency:

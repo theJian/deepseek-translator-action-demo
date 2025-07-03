@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'locales/**'
+      - locales/en.json
       - i18n.yml
 
 # Cancel any in-progress CI runs for a PR if it is updated
